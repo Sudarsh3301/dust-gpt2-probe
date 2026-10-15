@@ -1,0 +1,69 @@
+2026-10-07 02:21:33 start tune_backprop_sgd_0.01
+2026-10-07 02:24:09 done tune_backprop_sgd_0.01: held-out 2.9273
+2026-10-07 02:24:09 start tune_backprop_sgd_0.03
+2026-10-07 02:26:41 done tune_backprop_sgd_0.03: held-out 2.9303
+2026-10-07 02:26:41 start tune_backprop_sgd_0.1
+2026-10-07 02:29:12 done tune_backprop_sgd_0.1: held-out 2.9417
+2026-10-07 02:29:12 start tune_backprop_sgd_0.3
+2026-10-07 02:31:44 done tune_backprop_sgd_0.3: held-out 2.9737
+2026-10-07 02:31:44 start tune_same_token_sgd_0.01
+2026-10-07 02:37:40 done tune_same_token_sgd_0.01: held-out 2.9279
+2026-10-07 02:37:40 start tune_same_token_sgd_0.03
+2026-10-07 02:43:32 done tune_same_token_sgd_0.03: held-out 2.9274
+2026-10-07 02:43:32 start tune_same_token_sgd_0.1
+2026-10-07 02:49:23 done tune_same_token_sgd_0.1: held-out 2.9315
+2026-10-07 02:49:23 start tune_same_token_sgd_0.3
+2026-10-07 02:55:14 done tune_same_token_sgd_0.3: held-out 2.9501
+2026-10-07 02:55:14 start tune_backprop_adamw_1e-05
+2026-10-07 02:57:47 done tune_backprop_adamw_1e-05: held-out 2.9261
+2026-10-07 02:57:47 start tune_backprop_adamw_3e-05
+2026-10-07 03:00:20 done tune_backprop_adamw_3e-05: held-out 2.9259
+2026-10-07 03:00:20 start tune_backprop_adamw_0.0001
+2026-10-07 03:02:52 done tune_backprop_adamw_0.0001: held-out 2.9344
+2026-10-07 03:02:52 start tune_backprop_adamw_0.0003
+2026-10-07 03:05:25 done tune_backprop_adamw_0.0003: held-out 2.9786
+2026-10-07 03:05:25 start tune_same_token_adamw_1e-05
+2026-10-07 03:11:18 done tune_same_token_adamw_1e-05: held-out 2.9266
+2026-10-07 03:11:18 start tune_same_token_adamw_3e-05
+2026-10-07 03:17:11 done tune_same_token_adamw_3e-05: held-out 2.9278
+2026-10-07 03:17:11 start tune_same_token_adamw_0.0001
+2026-10-07 03:23:04 done tune_same_token_adamw_0.0001: held-out 2.9397
+2026-10-07 03:23:04 start tune_same_token_adamw_0.0003
+2026-10-07 03:28:57 done tune_same_token_adamw_0.0003: held-out 3.0423
+2026-10-07 03:28:57 phase 1 done: {"backprop_sgd": 0.01, "same_token_sgd": 0.03, "backprop_adamw": 3e-05, "same_token_adamw": 1e-05}
+2026-10-07 03:28:57 start main_backprop_sgd_0.01_s0
+2026-10-07 03:37:16 done main_backprop_sgd_0.01_s0: held-out 2.9793
+2026-10-07 03:37:16 start main_backprop_sgd_0.01_s1
+2026-10-07 03:45:35 done main_backprop_sgd_0.01_s1: held-out 2.9793
+2026-10-07 03:45:35 start main_backprop_sgd_0.01_s2
+2026-10-07 03:53:55 done main_backprop_sgd_0.01_s2: held-out 2.9801
+2026-10-07 03:53:55 start main_same_token_sgd_0.03_s0
+2026-10-07 04:12:14 done main_same_token_sgd_0.03_s0: held-out 2.9800
+2026-10-07 04:12:14 start main_same_token_sgd_0.03_s1
+2026-10-07 04:30:33 done main_same_token_sgd_0.03_s1: held-out 2.9801
+2026-10-07 04:30:33 start main_same_token_sgd_0.03_s2
+2026-10-07 04:48:52 done main_same_token_sgd_0.03_s2: held-out 2.9800
+2026-10-07 04:48:52 start main_backprop_adamw_3e-05_s0
+2026-10-07 04:57:18 done main_backprop_adamw_3e-05_s0: held-out 2.9769
+2026-10-07 04:57:18 start main_backprop_adamw_3e-05_s1
+2026-10-07 05:05:44 done main_backprop_adamw_3e-05_s1: held-out 2.9763
+2026-10-07 05:05:44 start main_backprop_adamw_3e-05_s2
+2026-10-07 05:14:09 done main_backprop_adamw_3e-05_s2: held-out 2.9768
+2026-10-07 05:14:09 start main_same_token_adamw_1e-05_s0
+2026-10-07 05:32:35 done main_same_token_adamw_1e-05_s0: held-out 2.9785
+2026-10-07 05:32:35 start main_same_token_adamw_1e-05_s1
+2026-10-07 05:51:00 done main_same_token_adamw_1e-05_s1: held-out 2.9784
+2026-10-07 05:51:00 start main_same_token_adamw_1e-05_s2
+2026-10-07 06:09:25 done main_same_token_adamw_1e-05_s2: held-out 2.9784
+2026-10-07 06:09:25 phase 2 done: {"sgd": {"seeds": [0, 1, 2], "final_held_out_ci": [0.0004712332447525114, 2.1245863536023535e-05, 0.0009101888863369823], "per_seed": [0.0007500648498535156, 0.0007491111755371094, -8.440017700195312e-05]}, "adamw": {"seeds": [0, 1, 2], "final_held_out_ci": [0.0017849100986495614, 0.0011379170464351773, 0.0024674832820892334], "per_seed": [0.0016345977783203125, 0.0021054744720458984, 0.0016148090362548828]}}
+2026-10-07 06:09:25 start replicate_b0
+2026-10-07 06:09:44 done replicate_b0: ok
+2026-10-07 06:09:44 start replicate_b1
+2026-10-07 06:10:04 done replicate_b1: ok
+2026-10-07 06:10:04 start replicate_b2
+2026-10-07 06:10:23 done replicate_b2: ok
+2026-10-07 06:10:23 start replicate_b3
+2026-10-07 06:10:42 done replicate_b3: ok
+2026-10-07 06:10:42 start replicate_b4
+2026-10-07 06:11:02 done replicate_b4: ok
+2026-10-07 06:11:02 all phases done
